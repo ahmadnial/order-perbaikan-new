@@ -65,10 +65,11 @@ include "proses.php"; ?>
                                 <option value="Bangsal Matahari">Bangsal Matahari</option>
                                 <option value="Bangsal Lili">Bangsal Lili</option>
                                 <option value="Bangsal Anyelir">Bangsal Anyelir</option>
-                                <option value="Kesekretariatan">Kesekretariatan</option>
+                                <option value="Bangsal NICU / Perinatal">Bangsal NICU / Perinatal</option>
                                 <option value="ICU / HCU">ICU / HCU</option>
                                 <option value="Security">Security</option>
                                 <option value="Umum">Umum</option>
+                                <option value="Kesekretariatan">Kesekretariatan</option>
 
                             </select>
                         </div>
@@ -80,7 +81,7 @@ include "proses.php"; ?>
                             <label for="">Modul / Menu di EMR</label>
                             <input type="text" class="form-control" name="modul" required="Silahkan lengkapi dulu!">
                         </div> -->
-                         <div class="mb-3 mt-3">
+                        <div class="mb-3 mt-3">
                             <label for="alamat" class="form-label">Deskripsi Kerusakan</label>
                             <textarea class="form-control" name="jenis_kerusakan" id="" rows="4" required="Silahkan lengkapi dulu!" placeholder="Tuliskan Jenis Kerusakan"></textarea>
                         </div>
